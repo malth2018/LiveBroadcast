@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="live_tab_string">
+        <item>关注</item>
+        <item>重要</item>
+        <item>全部</item>
+        <item>已结束</item>
+    </string-array>
+</resources>

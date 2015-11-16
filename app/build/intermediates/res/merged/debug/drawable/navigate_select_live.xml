@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true" android:drawable="@drawable/android_click"></item>
+    <item android:state_checkable="false" android:drawable="@drawable/android"></item>
+
+</selector><!-- From: file:/E:/WORK/Android/LiveBroadcast/app/src/main/res/drawable/navigate_select_live.xml -->

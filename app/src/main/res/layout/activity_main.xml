@@ -1,0 +1,162 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <com.example.livebroadcast.SlideMenu
+        android:id="@+id/slide_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <include layout="@layout/layout_menue" />
+
+        <!--
+            <include layout="@layout/layout_title_bar" />
+            -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/color_title_bar"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/linearLayout">
+
+                <ImageView
+                    android:id="@+id/title_bar_menu_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="3.0dip"
+                    android:layout_marginRight="3.0dip"
+                    android:layout_marginTop="3.0dip"
+                    android:gravity="center"
+                    android:src="@drawable/ic_top_bar_category"
+                    android:layout_weight="0.7"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_toRightOf="@id/title_bar_menu_btn"
+                    android:background="@drawable/ic_top_divider"
+                    android:layout_weight="0.1"/>
+
+                <TextView
+                    android:id="@+id/title_bar_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Title"
+                    android:textColor="#ffffff"
+                    android:textSize="22sp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="9.2"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical"
+                android:layout_below="@+id/linearLayout">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.89"
+                    android:id="@+id/main_content">
+                </FrameLayout>
+
+                <RadioGroup
+                    android:id="@+id/rg_navigate_menue"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@drawable/navigate_border">
+
+
+                    <RadioButton
+                        android:id="@+id/rd_navigate_live"
+                        android:layout_height="wrap_content"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="bottom"
+                        android:gravity="center"
+                        android:checked="true"
+                        android:text="@string/navigate_live"
+                        android:drawableTop="@drawable/navigate_select_live"
+                        android:button="@null"
+                        android:textColor="@drawable/navigate_selected_text_color"/>
+
+                    <RadioButton
+                        android:id="@+id/rd_navigate_video"
+                        android:layout_height="wrap_content"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="bottom"
+                        android:gravity="center"
+                        android:text="@string/navigate_video"
+                        android:drawableTop="@drawable/dolphin"
+                        android:button="@null"
+                        android:background="@color/LIGHT_BLUE"
+                        android:textColor="@drawable/navigate_selected_text_color"/>
+
+                    <RadioButton
+                        android:id="@+id/rd_navigate_news"
+                        android:layout_height="wrap_content"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="bottom"
+                        android:gravity="center"
+                        android:text="@string/navigate_news"
+                        android:drawableTop="@drawable/email"
+                        android:button="@null"
+                        android:textColor="@drawable/navigate_selected_text_color"/>
+
+                    <RadioButton
+                        android:id="@+id/rd_navigate_data"
+                        android:layout_height="wrap_content"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="bottom"
+                        android:gravity="center"
+                        android:text="@string/navigate_data"
+                        android:drawableTop="@drawable/firefox"
+                        android:button="@null"
+                        android:textColor="@drawable/navigate_selected_text_color"/>
+
+                    <RadioButton
+                        android:id="@+id/rd_navigate_discover"
+                        android:layout_height="wrap_content"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="bottom"
+                        android:gravity="center"
+                        android:text="@string/navigate_discover"
+                        android:drawableTop="@drawable/gosms"
+                        android:button="@null"
+                        android:textColor="@drawable/navigate_selected_text_color"/>
+                </RadioGroup>
+
+            </LinearLayout>
+        </RelativeLayout>
+
+
+    </com.example.livebroadcast.SlideMenu>
+
+
+
+
+</LinearLayout>
+
+
+
+
+
+

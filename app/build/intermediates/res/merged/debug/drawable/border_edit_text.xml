@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <stroke android:color="#DADCDE" android:width="2dp"/>
+    <solid android:color="#fff"/>
+    <corners android:radius="0dp"/>
+</shape><!-- From: file:/E:/WORK/Android/LiveBroadcast/app/src/main/res/drawable/border_edit_text.xml -->

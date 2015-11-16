@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bitmap_book_read_chapterlist_repeat"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/slide_menu_layout">
+
+        <TextView
+            android:layout_width="@dimen/menu_width"
+            android:layout_height="wrap_content"
+            android:background="#ff313131"
+            android:gravity="right"
+            android:paddingRight="50dp"
+            android:text="菜单"
+            android:textColor="@color/color_main_menu_text"
+            android:textSize="@dimen/live_tab_text_size"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="我的账号"
+            android:textColor="@color/color_main_menu_text"
+            android:textSize="@dimen/main_menu_item_text_size"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            android:drawableLeft="@drawable/ic_person1"
+            android:paddingLeft="@dimen/menu_paddingleft"
+            android:background="@drawable/selector_category"
+            android:clickable="true"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:id="@+id/slide_menu_account"
+            android:onClick="onClick"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="我的关注"
+            android:textColor="@color/color_main_menu_text"
+            android:textSize="@dimen/main_menu_item_text_size"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            android:drawableLeft="@drawable/ic_focus"
+            android:paddingLeft="@dimen/menu_paddingleft"
+            android:background="@drawable/selector_category"
+            android:clickable="true"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:id="@+id/slide_menu_focus"
+            android:onClick="onClick"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="我的下载"
+            android:textColor="@color/color_main_menu_text"
+            android:textSize="@dimen/main_menu_item_text_size"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            android:drawableLeft="@drawable/ic_download"
+            android:paddingLeft="@dimen/menu_paddingleft"
+            android:background="@drawable/selector_category"
+            android:clickable="true"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:id="@+id/slide_menu_download"
+            android:onClick="onClick"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="我的收藏"
+            android:textColor="@color/color_main_menu_text"
+            android:textSize="@dimen/main_menu_item_text_size"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            android:drawableLeft="@drawable/ic_person1"
+            android:paddingLeft="@dimen/menu_paddingleft"
+            android:background="@drawable/selector_category"
+            android:clickable="true"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:id="@+id/slide_menu_favorite"
+            android:onClick="onClick"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="我的提醒"
+            android:textColor="@color/color_main_menu_text"
+            android:textSize="@dimen/main_menu_item_text_size"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            android:drawableLeft="@drawable/ic_person1"
+            android:paddingLeft="@dimen/menu_paddingleft"
+            android:background="@drawable/selector_category"
+            android:clickable="true"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:id="@+id/slide_menu_prompt"
+            android:onClick="onClick"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="我的历史"
+            android:textColor="@color/color_main_menu_text"
+            android:textSize="@dimen/main_menu_item_text_size"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            android:drawableLeft="@drawable/ic_focus"
+            android:paddingLeft="@dimen/menu_paddingleft"
+            android:background="@drawable/selector_category"
+            android:clickable="true"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:id="@+id/slide_menu_history"
+            android:onClick="onClick"/>
+
+        <View
+            android:layout_width="@dimen/menu_width"
+            android:layout_height="2.0dip"
+            android:background="@drawable/ic_shelf_category_divider" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="插件管理"
+            android:textColor="@color/color_main_menu_text"
+            android:textSize="@dimen/main_menu_item_text_size"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            android:drawableLeft="@drawable/ic_person1"
+            android:paddingLeft="@dimen/menu_paddingleft"
+            android:background="@drawable/selector_category"
+            android:clickable="true"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:id="@+id/slide_menu_plugin"
+            android:onClick="onClick"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="建议反馈"
+            android:textColor="@color/color_main_menu_text"
+            android:textSize="@dimen/main_menu_item_text_size"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            android:drawableLeft="@drawable/ic_person1"
+            android:paddingLeft="@dimen/menu_paddingleft"
+            android:background="@drawable/selector_category"
+            android:clickable="true"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:id="@+id/slide_menu_feedback"
+            android:onClick="onClick"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="我的设置"
+            android:textColor="@color/color_main_menu_text"
+            android:textSize="@dimen/main_menu_item_text_size"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            android:drawableLeft="@drawable/ic_person1"
+            android:paddingLeft="@dimen/menu_paddingleft"
+            android:background="@drawable/selector_category"
+            android:clickable="true"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:id="@+id/slide_menu_setting"
+            android:onClick="onClick"/>
+
+        <View
+            android:layout_width="@dimen/menu_width"
+            android:layout_height="2.0dip"
+            android:background="@drawable/ic_shelf_category_divider" />
+    </LinearLayout>
+</ScrollView>
+
+

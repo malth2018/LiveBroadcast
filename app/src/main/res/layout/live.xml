@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="4dp"
+            android:id="@+id/rg_live"
+            android:background="#0060FF">
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/live_focus"
+                android:gravity="center"
+                android:button="@null"
+                android:textSize="@dimen/live_tab_text_size"
+                android:id="@+id/bt_live_focus"
+                android:textColor="@drawable/live_top_navagate_tab_selector"/>
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/live_important"
+                android:gravity="center"
+                android:button="@null"
+                android:textSize="@dimen/live_tab_text_size"
+                android:id="@+id/bt_live_important"
+                android:textColor="@drawable/live_top_navagate_tab_selector"/>
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/live_all"
+                android:gravity="center"
+                android:button="@null"
+                android:textSize="@dimen/live_tab_text_size"
+                android:id="@+id/bt_live_all"
+                android:textColor="@drawable/live_top_navagate_tab_selector"/>
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/live_finished"
+                android:gravity="center"
+                android:button="@null"
+                android:textSize="@dimen/live_tab_text_size"
+                android:id="@+id/bt_live_finished"
+                android:textColor="@drawable/live_top_navagate_tab_selector"/>
+        </RadioGroup>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </android.support.v4.view.ViewPager>
+
+    </LinearLayout>
+</LinearLayout>

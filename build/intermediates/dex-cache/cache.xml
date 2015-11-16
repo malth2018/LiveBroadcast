@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="E:\WORK\Android\LiveBroadcast\app\build\intermediates\exploded-aar\LiveBroadcast\mylibrary\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="4f5fa7b193e2784310080273bef8b0b088bf9ea9">
+        <dex dex="E:\WORK\Android\LiveBroadcast\app\build\intermediates\pre-dexed\debug\classes-f2f93b534d17a4b42026084cc89d66990c5b8f9f.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">小马直播吧</string>
+    <string name="action_settings">Settings</string>
+    <string name="navigate_live">直播</string>
+    <string name="navigate_video">视频</string>
+    <string name="navigate_news">新闻</string>
+    <string name="navigate_data">数据</string>
+    <string name="navigate_discover">发现</string>
+    <string-array name="settings" >
+        <item>我的账号</item>
+        <item>我的彩票</item>
+        <item>我的关注</item>
+        <item>我的下载</item>
+        <item>我的收藏</item>
+        <item>我的提醒</item>
+    </string-array>
+
+    <string name="live_focus">关注</string>    
+    <string name="live_important">重要</string>
+    <string name="live_all">全部</string>
+    <string name="live_finished">已结束</string>
+    
+    <string name="live_focus_headline">我的头条</string>
+    <string name="title_activity_my_focus_menu">myFocusMenuActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_my_account">myAccountActivity</string>
+    <string name="title_activity_menu_download">MenuDownloadActivity</string>
+    <string name="title_activity_menu_account">MenuAccountActivity</string>
+    <string name="title_activity_menu_focus">MenuFocusActivity</string>
+    <string name="title_activity_menu_favorite">MenuFavoriteActivity</string>
+    <string name="title_activity_menu_history">MenuHistoryActivity</string>
+    <string name="title_activity_menu_prompt">MenuPromptActivity</string>
+    <string name="title_activity_menu_feedback">MenuFeedbackActivity</string>
+    <string name="title_activity_menu_plugin">MenuPluginActivity</string>
+    <string name="title_activity_menu_setting">MenuSettingActivity</string>
+
+</resources>
